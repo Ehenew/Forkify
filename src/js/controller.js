@@ -149,6 +149,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+// Simulating git bramch
+const newFeature = function () {
+  console.log('Welcome to Forkify Application');
+};
 // Publisher-Subscriber Pattern
 const init = function () {
   bookmarksView.addHandlerRenderBookmark(controlBookmarks);
@@ -158,8 +162,10 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  newFeature()
 };
 init();
+
 
 // [ 'hashchange', 'load' ].forEach(event => window.addEventListener(event, controlRecipes)); // to make it clean
 // window.addEventListener('hashchange', controlRecipes); // listening tol url change
