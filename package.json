@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel  build index.html --dist-dir ./dist"
+  },
+  "author": "Ehenew Amogne",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.2",
+    "parcel": "^2.13.2",
+    "svgo": "^3.3.2"
+  },
+  "dependencies": {
+    "core-js": "^3.39.0",
+    "forkify": "file:",
+    "fractional": "^1.0.0",
+    "recipefy": "file:",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
