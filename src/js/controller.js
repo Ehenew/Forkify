@@ -149,7 +149,7 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
-// Simulating git bramch
+// Simulating git branching
 const newFeature = function () {
   console.log('Welcome to Forkify Application');
 };
