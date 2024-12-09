@@ -149,6 +149,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+// Simulating git branching
+const newFeature = function () {
+  console.log('Welcome to Forkify Application');
+};
 // Publisher-Subscriber Pattern
 const init = function () {
   bookmarksView.addHandlerRenderBookmark(controlBookmarks);
@@ -158,6 +162,7 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  newFeature()
 };
 init();
 
