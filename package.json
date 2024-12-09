@@ -18,7 +18,6 @@
     "core-js": "^3.39.0",
     "forkify": "file:",
     "fractional": "^1.0.0",
-    "recipefy": "file:",
     "regenerator-runtime": "^0.14.1"
   }
 }
