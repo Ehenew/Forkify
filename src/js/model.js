@@ -116,7 +116,7 @@ export const deleteBookmark = function (id) {
   persistBookmarks();
 };
 
-console.log(state.bookmarks);
+// console.log(state.bookmarks);
 const clearBookmarks = function () {
   localStorage.clear('bookmarks');
 };
@@ -146,7 +146,7 @@ export const uploadRecipe = async function (newRecipe) {
       servings: +newRecipe.servings,
       ingredients,
     };
-    console.log(recipe);
+    // console.log(recipe);
 
     // Let's upload our recipe to  the forkify api
     const data = await AJAX(`${ API_URL }?key=${ KEY }`, recipe);
