@@ -1,0 +1,13 @@
+[build]
+  command = "parcel build index.html --dist-dir ./dist" # Build command
+  publish = "dist" # Directory to deploy
+  # Specify the Node.js version if necessary
+  environment = { NODE_VERSION = "16" }
+
+[functions]
+  directory = "netlify/functions" # Optional: Define custom Netlify Functions directory if used
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
